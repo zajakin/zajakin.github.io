@@ -21,7 +21,7 @@ A modern desktop replacement for bloated suites, built for high-precision trace 
 *   **Advanced Analysis:** REBASE restriction enzyme integration, 1-click UniVec vector trimming, and 6-frame ORF translation.
 *   **Audio Dictation (TTS):** Voice readout for hands-free sequence proofreading against physical lab notes.
 
-👉 [**Get ChromaZ on GitHub**](https://github.com)
+👉 [**Get ChromaZ on GitHub**](https://github.com/zajakin/ChromaZ)
 
 ---
 
@@ -34,9 +34,9 @@ Ditch the command line. Run full VCF/BED genome liftovers locally with complete 
 *   **Strict FASTA Validation:** Automated management of strand inversions (Strand Flips) and allele swaps (REF/ALT Swap) using target FASTA.
 *   **6 Major Formats Supported:** Native drag-and-drop processing for VCF, gVCF, BED, GFF/GTF, Wiggle, and MAF.
 
-👉 [**Get LiftOverZ on GitHub**](https://github.com)
+👉 [**Get LiftOverZ on GitHub**](https://github.com/zajakin/LiftOverZ)
 
 ---
 
-Developed openly by [zajakin](https://github.com). Released under the MIT License.  
+Developed openly by [zajakin](https://github.com/zajakin). Released under the MIT License.  
 *Optimized for academic researchers, geneticists, and bioinformaticians worldwide.*
