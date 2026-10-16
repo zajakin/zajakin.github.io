@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 🎯 КРИТИЧЕСКИЕ SEO МЕТА-ТЕГИ -->
+    <title>Zajakin BioTools | Free Desktop Software for Sanger Sequencing & Genome LiftOver</title>
+    <meta name="description" content="Download ChromaZ and LiftOverZ: fast, standalone, cross-platform desktop GUI tools for Sanger chromatogram analysis, contig assembly, and seamless genomic coordinate liftover (hg19, hg38, T2T) with zero installation.">
+    <meta name="keywords" content="Sanger sequencing viewer, ab1 chromatogram editor, LiftOver GUI desktop, genomic coordinates converter, hg19 to hg38 liftover, CAP3 contig assembly, free bioinformatics software, zajakin github">
+    <meta name="author" content="zajakin">
+    <link rel="canonical" href="https://github.io">
+
+    <!-- 🌐 Open Graph / Facebook (Для красивого шеринга в соцсетях и мессенджерах) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.io">
+    <meta property="og:title" content="Zajakin BioTools: Standalone Bioinformatics GUI Software">
+    <meta property="og:description" content="Free, open-source, portable desktop tools for Sanger chromatogram trace visualization, sequence alignment, and gap-free mitochondrial genome LiftOver.">
+    <meta property="og:image" content="https://githubusercontent.com">
+
+    <!-- 🐦 Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Zajakin BioTools: Standalone Bioinformatics GUI Software">
+    <meta property="twitter:description" content="Ditch command line for genomic LiftOver and heavy suites for Sanger traces. Fast, portable C++/Qt6 and Python GUI apps for Windows, macOS, and Linux.">
+
+    <!-- 🛠️ СТИЛИ (Современный биоинформатический дизайн) -->
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --accent-green: #10b981;
+            --accent-blue: #3b82f6;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            background: linear-gradient(180deg, #1e1b4b 0%, var(--bg-dark) 100%);
+        }
+        h1 { font-size: 3rem; margin-bottom: 0.5rem; letter-spacing: -0.05em; }
+        .subtitle { font-size: 1.25rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 2rem; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 2.5rem; }
+        .card { background-color: var(--bg-card); border-radius: 12px; padding: 2.5rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); border: 1px solid #334155; display: flex; flex-direction: column; }
+        .badge { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; width: fit-content; }
+        .badge-chroma { background-color: rgba(16, 185, 129, 0.2); color: var(--accent-green); }
+        .badge-lift { background-color: rgba(59, 130, 246, 0.2); color: var(--accent-blue); }
+        h2 { font-size: 2rem; margin-top: 0; }
+        ul { padding-left: 1.25rem; margin-bottom: 2rem; }
+        li { margin-bottom: 0.75rem; color: #cbd5e1; }
+        li strong { color: var(--text-main); }
+        .btn { display: inline-block; text-align: center; padding: 0.75rem 1.5rem; border-radius: 6px; font-weight: 600; text-decoration: none; transition: all 0.2s; margin-top: auto; }
+        .btn-chroma { background-color: var(--accent-green); color: #000; }
+        .btn-chroma:hover { background-color: #059669; }
+        .btn-lift { background-color: var(--accent-blue); color: #fff; }
+        .btn-lift:hover { background-color: #2563eb; }
+        footer { text-align: center; padding: 4rem 2rem; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid #1e293b; margin-top: 4rem; }
+        footer a { color: var(--text-main); text-decoration: none; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 2.2rem; } }
+    </style>
+
+    <!-- 🧬 СТРУКТУРИРОВАННЫЕ ДАННЫЕ SCHEMA.ORG (Чтобы поисковики красиво отображали софт в выдаче) -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ChromaZ",
+        "operatingSystem": "Windows, macOS, Linux",
+        "applicationCategory": "BioinformaticsApplication",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Cross-platform desktop C++/Qt6 application for contig assembly, Sanger sequencing chromatogram visualization, and restriction mapping."
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "LiftOverZ",
+        "operatingSystem": "Windows, macOS, Linux",
+        "applicationCategory": "BioinformaticsApplication",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Standalone cross-platform graphical GUI tool for lifting over genomic coordinates across genome assembly builds with pre-bundled gap-free mitochondrial chains."
+      }
+    ]
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>Zajakin BioTools</h1>
+        <p class="subtitle">Lightweight, lightning-fast, and 100% portable open-source desktop GUI software for modern molecular biology and bioinformatics.</p>
+    </header>
+
+    <main class="container">
+        <div class="grid">
+            
+            <!-- КАРТОЧКА CHROMAZ -->
+            <article class="card">
+                <span class="badge badge-chroma">C++17 & Qt6 Power</span>
+                <h2>ChromaZ</h2>
+                <p><strong>Contig Alignment Viewer & Chromatogram Editor.</strong> A modern desktop replacement for bloated suites, built for high-precision trace analysis.</p>
+                <ul>
+                    <li><strong>7+ Independent Alignment Algorithms:</strong> Includes OLC/CAP3 (Sanger default), Gotoh, Smith-Waterman, and Wavefront Alignment (WFA).</li>
+                    <li><strong>Chromatogram Plot & Phred QC:</strong> Beautiful 4-color trace plots with automated low-quality end-trimming.</li>
+                    <li><strong>Advanced Analysis:</strong> REBASE restriction enzyme integration, 1-click UniVec vector trimming, and 6-frame ORF translation.</li>
+                    <li><strong>Audio Dictation (TTS):</strong> Voice readout for hands-free sequence proofreading against physical lab notes.</li>
+                </ul>
+                <a href="https://github.com/zajakin/ChromaZ" class="btn btn-chroma" target="_blank" rel="noopener">Get ChromaZ on GitHub →</a>
+            </article>
+
+            <!-- КАРТОЧКА LIFTOVERZ -->
+            <article class="card">
+                <span class="badge badge-lift">Zero-Configuration GUI</span>
+                <h2>LiftOverZ</h2>
+                <p><strong>Genomic Coordinates Assembly Converter.</strong> Ditch the command line. Run full VCF/BED genome liftovers locally with complete biological validation.</p>
+                <ul>
+                    <li><strong>Pre-bundled Chain Presets:</strong> Embedded human (hg19, hg38, T2T-CHM13v2) and mouse builds running right out of the box.</li>
+                    <li><strong>Mitochondrial Fixes:</strong> Custom gap-free mitochondrial alignments based on GATK standards to prevent dropped variants.</li>
+                    <li><strong>Strict FASTA Validation:</strong> Automated management of strand inversions (Strand Flips) and allele swaps (REF/ALT Swap) using target FASTA.</li>
+                    <li><strong>6 Major Formats Supported:</strong> Native drag-and-drop processing for VCF, gVCF, BED, GFF/GTF, Wiggle, and MAF.</li>
+                </ul>
+                <a href="https://github.com/zajakin/LiftOverZ" class="btn btn-lift" target="_blank" rel="noopener">Get LiftOverZ on GitHub →</a>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Developed openly by <a href="https://github.com/zajakin" target="_blank" rel="noopener">zajakin</a>. Released under the MIT License.</p>
+        <p style="font-size: 0.8rem; color: #64748b; margin-top: 1rem;">Optimized for academic researchers, geneticists, and bioinformaticians worldwide.</p>
+    </footer>
+
+</body>
+</html>
